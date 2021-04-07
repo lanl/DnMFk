@@ -32,10 +32,6 @@ The holistic analysis and understanding of the latent (that is, not-directly obs
 ## Acknowledgements
 This study was funded by U.S. Department of Energy National Nuclear Security Administration under Contract No. DE-AC52-06NA25396 through Los Alamos National Laboratory's Laboratory Directed Research and Development (LDRD) grant 20190020DR.
 
-The United States Government retains and the publisher, by accepting the article for publication, acknowledges that the United States Government retains a non-exclusive, paid-up, irrevocable, world-wide license to publish or reproduce the published form of this manuscript, or allow others to do so, for United States Government purposes. The Department of Energy will provide public access to these results of federally sponsored research in accordance with the DOE Public Access Plan http://energy.gov/downloads/doepublic-access-plan. 
-
-Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the USDOE, NERSC, AFOSR, NSF or DARPA.
-
 This software is extension to the distributed NMF repository [planc](https://github.com/ramkikannan/planc) by Ramakrishnan Kannan et al. The license and readme information can be found in [planc-master](planc-master/). Please fidn the following references:
 
 
