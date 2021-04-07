@@ -34,13 +34,12 @@ This study was funded by U.S. Department of Energy National Nuclear Security Adm
 
 This software is extension to the distributed NMF repository [planc](https://github.com/ramkikannan/planc) by Ramakrishnan Kannan et al. The license and readme information can be found in [planc-master](planc-master/). Please fidn the following references:
 
-
-    Ramakrishnan Kannan, Grey Ballard, and Haesun Park. 2016. A high-performance parallel algorithm for nonnegative matrix factorization. In Proceedings of the 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP '16). ACM, New York, NY, USA, , Article 9 , 11 pages. DOI: http://dx.doi.org/10.1145/2851141.2851152
-    James P. Fairbanks, Ramakrishnan Kannan, Haesun Park, David A. Bader, Behavioral clusters in dynamic graphs, Parallel Computing, Volume 47, August 2015, Pages 38-50, ISSN 0167-8191. DOI: http://dx.doi.org/10.1016/j.parco.2015.03.002.
-    Kannan, Ramakrishnan. "SCALABLE AND DISTRIBUTED CONSTRAINED LOW RANK APPROXIMATIONS." (Doctoral Disseration) (2016). https://smartech.gatech.edu/handle/1853/54962
-    Ramakrishnan Kannan, Grey Ballard, Haesun Park: MPI-FAUN: An MPI-Based Framework for Alternating-Updating Nonnegative Matrix Factorization. IEEE Trans. Knowl. Data Eng. 30(3): 544-558 (2018). DOI: https://doi.org/10.1109/TKDE.2017.2767592
-    Oguz Kaya, Ramakrishnan Kannan, Grey Ballard: Partitioning and Communication Strategies for Sparse Non-negative Matrix Factorization. ICPP 2018: 90:1-90:10. DOI: https://doi.org/10.1145/3225058.3225127
-    Grey Ballard, Koby Hayashi, Ramakrishnan Kannan: Parallel Nonnegative CP Decomposition of Dense Tensors. 25th {IEEE} International Conference on High Performance Computing(HiPC) 2018. DOI: https://doi.org/10.1109/HiPC.2018.00012
+* Ramakrishnan Kannan, Grey Ballard, and Haesun Park. 2016. A high-performance parallel algorithm for nonnegative matrix factorization. In Proceedings of the 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP '16). ACM, New York, NY, USA, , Article 9 , 11 pages. DOI: http://dx.doi.org/10.1145/2851141.2851152
+* James P. Fairbanks, Ramakrishnan Kannan, Haesun Park, David A. Bader, Behavioral clusters in dynamic graphs, Parallel Computing, Volume 47, August 2015, Pages 38-50, ISSN 0167-8191. DOI: http://dx.doi.org/10.1016/j.parco.2015.03.002.
+* Kannan, Ramakrishnan. "SCALABLE AND DISTRIBUTED CONSTRAINED LOW RANK APPROXIMATIONS." (Doctoral Disseration) (2016). https://smartech.gatech.edu/handle/1853/54962
+* Ramakrishnan Kannan, Grey Ballard, Haesun Park: MPI-FAUN: An MPI-Based Framework for Alternating-Updating Nonnegative Matrix Factorization. IEEE Trans. Knowl. Data Eng. 30(3): 544-558 (2018). DOI: https://doi.org/10.1109/TKDE.2017.2767592
+* Oguz Kaya, Ramakrishnan Kannan, Grey Ballard: Partitioning and Communication Strategies for Sparse Non-negative Matrix Factorization. ICPP 2018: 90:1-90:10. DOI: https://doi.org/10.1145/3225058.3225127
+* Grey Ballard, Koby Hayashi, Ramakrishnan Kannan: Parallel Nonnegative CP Decomposition of Dense Tensors. 25th {IEEE} International Conference on High Performance Computing(HiPC) 2018. DOI: https://doi.org/10.1109/HiPC.2018.00012
 
 
 
