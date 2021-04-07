@@ -1,3 +1,4 @@
 *.f linguist-detectable=false
 *.cmake linguist-detectable=false
 *.make linguist-detectable=false
+*.S linguist-detectable=false
