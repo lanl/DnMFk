@@ -2,4 +2,4 @@
 *.cmake linguist-detectable=false
 *.make linguist-detectable=false
 *.S linguist-detectable=false
-install_dependencies/* linguist-detectable=false
+install_dependencies/* linguist-vendored
