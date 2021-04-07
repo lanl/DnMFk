@@ -1,0 +1,1 @@
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/gfortran     -O2  -Wall -m64 -fPIC -O3 CMakeFiles/xzcblat3.dir/c_zblat3.f.o CMakeFiles/xzcblat3.dir/c_zblas3.c.o CMakeFiles/xzcblat3.dir/c_z3chke.c.o CMakeFiles/xzcblat3.dir/auxiliary.c.o CMakeFiles/xzcblat3.dir/c_xerbla.c.o CMakeFiles/xzcblat3.dir/constant.c.o  -o xzcblat3  ../lib/libopenblas.a -lpthread 

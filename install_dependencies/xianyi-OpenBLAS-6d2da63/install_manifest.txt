@@ -1,0 +1,14 @@
+/usr/local/lib64/libopenblas.so.0.2
+/usr/local/lib64/libopenblas.so.0
+/usr/local/lib64/libopenblas.so
+/usr/local/include/openblas_config.h
+/usr/local/include/f77blas.h
+/usr/local/include/cblas.h
+/usr/local/include/lapacke_example_aux.h
+/usr/local/include/lapacke.h
+/usr/local/include/lapacke_config.h
+/usr/local/include/lapacke_mangling.h
+/usr/local/include/lapacke_utils.h
+/usr/local/include/lapacke_mangling.h
+/usr/local/lib64/libopenblas.a
+/usr/local/lib64/pkgconfig/openblas.pc

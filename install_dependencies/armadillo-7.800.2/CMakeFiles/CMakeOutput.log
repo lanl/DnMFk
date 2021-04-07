@@ -1,0 +1,767 @@
+The system is: Linux - 3.10.0-1127.18.2.1chaos.ch6.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1701254070/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1701254070.dir/build.make CMakeFiles/cmTryCompileExec1701254070.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_progress_report /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1701254070.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1701254070.dir/testCXXCompiler.cxx.o -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1701254070
+/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1701254070.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1701254070.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1701254070 -rdynamic 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4294562852/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4294562852.dir/build.make CMakeFiles/cmTryCompileExec4294562852.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_progress_report /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o -c /var/lib/perceus/vnfs/fe/rootfs/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4294562852
+/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4294562852.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4294562852 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
+COMPILER_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/
+LIBRARY_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4294562852' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4294562852 /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec4294562852/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4294562852.dir/build.make CMakeFiles/cmTryCompileExec4294562852.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp']
+  ignore line: [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_progress_report /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o -c /var/lib/perceus/vnfs/fe/rootfs/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4294562852]
+  ignore line: [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4294562852.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4294562852 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
+  ignore line: [COMPILER_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4294562852' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4294562852 /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4294562852] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec4294562852.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc;/var/lib/perceus/vnfs/fe/rootfs/usr/lib64;/lib64;/usr/lib64;/var/lib/perceus/vnfs/fe/rootfs/usr/lib]
+  implicit fwks: []
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3217014909/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3217014909.dir/build.make CMakeFiles/cmTryCompileExec3217014909.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_progress_report /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3217014909.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3217014909.dir/testCCompiler.c.o   -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3217014909
+/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3217014909.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3217014909.dir/testCCompiler.c.o  -o cmTryCompileExec3217014909 -rdynamic 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2582599095/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2582599095.dir/build.make CMakeFiles/cmTryCompileExec2582599095.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_progress_report /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o   -c /var/lib/perceus/vnfs/fe/rootfs/usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2582599095
+/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2582599095.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2582599095 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
+COMPILER_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/
+LIBRARY_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2582599095' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2582599095 /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec2582599095/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2582599095.dir/build.make CMakeFiles/cmTryCompileExec2582599095.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp']
+  ignore line: [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_progress_report /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o   -c /var/lib/perceus/vnfs/fe/rootfs/usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2582599095]
+  ignore line: [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2582599095.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2582599095 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
+  ignore line: [COMPILER_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2582599095' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2582599095 /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2582599095] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec2582599095.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc;/var/lib/perceus/vnfs/fe/rootfs/usr/lib64;/lib64;/usr/lib64;/var/lib/perceus/vnfs/fe/rootfs/usr/lib]
+  implicit fwks: []
+
+
+The system is: Linux - 3.10.0-1127.18.2.1chaos.ch6.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/3.9.0/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_02418/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_02418.dir/build.make CMakeFiles/cmTC_02418.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_02418.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_02418.dir/testCXXCompiler.cxx.o -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_02418
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02418.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_02418.dir/testCXXCompiler.cxx.o  -o cmTC_02418 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b3d42/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b3d42.dir/build.make CMakeFiles/cmTC_b3d42.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o -c /turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b3d42
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d42.dir/link.txt --verbose=1
+/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b3d42 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
+COMPILER_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/
+LIBRARY_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b3d42' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3d42 /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_b3d42/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_b3d42.dir/build.make CMakeFiles/cmTC_b3d42.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o -c /turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b3d42]
+  ignore line: [/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d42.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v -rdynamic CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b3d42 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
+  ignore line: [COMPILER_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b3d42' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3d42 /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b3d42] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_b3d42.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc;/var/lib/perceus/vnfs/fe/rootfs/usr/lib64;/lib64;/usr/lib64;/var/lib/perceus/vnfs/fe/rootfs/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6ec8c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6ec8c.dir/build.make CMakeFiles/cmTC_6ec8c.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ec8c.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTC_6ec8c.dir/feature_tests.cxx.o -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6ec8c
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ec8c.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_6ec8c.dir/feature_tests.cxx.o  -o cmTC_6ec8c 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7a350/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7a350.dir/build.make CMakeFiles/cmTC_7a350.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7a350.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7a350.dir/feature_tests.cxx.o -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7a350
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a350.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_7a350.dir/feature_tests.cxx.o  -o cmTC_7a350 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_84a2d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_84a2d.dir/build.make CMakeFiles/cmTC_84a2d.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84a2d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_84a2d.dir/feature_tests.cxx.o -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_84a2d
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84a2d.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_84a2d.dir/feature_tests.cxx.o  -o cmTC_84a2d 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d3031/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d3031.dir/build.make CMakeFiles/cmTC_d3031.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3031.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d3031.dir/testCCompiler.c.o   -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d3031
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3031.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d3031.dir/testCCompiler.c.o  -o cmTC_d3031 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7414c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7414c.dir/build.make CMakeFiles/cmTC_7414c.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o   -c /turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7414c
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7414c.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o  -o cmTC_7414c 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
+COMPILER_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/
+LIBRARY_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7414c' '-mtune=generic' '-march=x86-64'
+ /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7414c /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_7414c/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_7414c.dir/build.make CMakeFiles/cmTC_7414c.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o   -c /turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7414c]
+  ignore line: [/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7414c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o  -o cmTC_7414c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
+  ignore line: [COMPILER_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7414c' '-mtune=generic' '-march=x86-64']
+  link line: [ /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7414c /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7414c] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_7414c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/var/lib/perceus/vnfs/fe/rootfs/usr/bin/../lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/var/lib/perceus/vnfs/fe/rootfs/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/var/lib/perceus/vnfs/fe/rootfs/usr/lib/gcc;/var/lib/perceus/vnfs/fe/rootfs/usr/lib64;/lib64;/usr/lib64;/var/lib/perceus/vnfs/fe/rootfs/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a6ad7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a6ad7.dir/build.make CMakeFiles/cmTC_a6ad7.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6ad7.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_a6ad7.dir/feature_tests.c.o   -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a6ad7
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6ad7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a6ad7.dir/feature_tests.c.o  -o cmTC_a6ad7 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_713b7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_713b7.dir/build.make CMakeFiles/cmTC_713b7.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_713b7.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_713b7.dir/feature_tests.c.o   -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_713b7
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_713b7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_713b7.dir/feature_tests.c.o  -o cmTC_713b7 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f37ce/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f37ce.dir/build.make CMakeFiles/cmTC_f37ce.dir/build
+gmake[1]: Entering directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f37ce.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_f37ce.dir/feature_tests.c.o   -c /lustre/scratch4/turquoise/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f37ce
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f37ce.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f37ce.dir/feature_tests.c.o  -o cmTC_f37ce 
+gmake[1]: Leaving directory `/lustre/scratch4/turquoise/.mdt0/rvangara/RD100exps/distnnmfkcpp_Src/install_dependencies/armadillo-7.800.2/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

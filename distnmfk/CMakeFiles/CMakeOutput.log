@@ -1,0 +1,419 @@
+The system is: Linux - 3.10.0-1127.18.2.1chaos.ch6.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/3.9.0/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cf1f1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cf1f1.dir/build.make CMakeFiles/cmTC_cf1f1.dir/build
+gmake[1]: Entering directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf1f1.dir/testCXXCompiler.cxx.o
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++     -o CMakeFiles/cmTC_cf1f1.dir/testCXXCompiler.cxx.o -c /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cf1f1
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf1f1.dir/link.txt --verbose=1
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++       -rdynamic CMakeFiles/cmTC_cf1f1.dir/testCXXCompiler.cxx.o  -o cmTC_cf1f1 
+gmake[1]: Leaving directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0289e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0289e.dir/build.make CMakeFiles/cmTC_0289e.dir/build
+gmake[1]: Entering directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++     -o CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o -c /turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_0289e
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0289e.dir/link.txt --verbose=1
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++      -v -rdynamic CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0289e 
+Using built-in specs.
+COLLECT_GCC=/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++
+COLLECT_LTO_WRAPPER=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-9.3.0/configure --enable-threads=posix --enable-__cxa_atexit --enable-lto --enable-checking=release --disable-multilib --enable-languages=c,c++,fortran,go --enable-offload-targets=nvptx-none --prefix=/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COMPILER_PATH=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/
+LIBRARY_PATH=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/:/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0289e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cck0HfLK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0289e /lib/../lib64/crt1.o /lib/../lib64/crti.o /turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc -L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0289e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_0289e/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_0289e.dir/build.make CMakeFiles/cmTC_0289e.dir/build]
+  ignore line: [gmake[1]: Entering directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++     -o CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o -c /turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_0289e]
+  ignore line: [/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0289e.dir/link.txt --verbose=1]
+  ignore line: [/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++      -v -rdynamic CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0289e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-9.3.0/configure --enable-threads=posix --enable-__cxa_atexit --enable-lto --enable-checking=release --disable-multilib --enable-languages=c,c++,fortran,go --enable-offload-targets=nvptx-none --prefix=/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/:/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_0289e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cck0HfLK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0289e /lib/../lib64/crt1.o /lib/../lib64/crti.o /turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc -L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cck0HfLK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0289e] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> dir [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+    arg [-L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc] ==> dir [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc]
+    arg [-L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> dir [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
+    arg [CMakeFiles/cmTC_0289e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+  collapse library dir [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc] ==> [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/lib/gcc]
+  collapse library dir [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/../lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0;/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/lib/gcc;/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/lib64;/lib64;/usr/lib64;/turquoise/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e47de/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e47de.dir/build.make CMakeFiles/cmTC_e47de.dir/build
+gmake[1]: Entering directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e47de.dir/feature_tests.cxx.o
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++    -std=c++1z -o CMakeFiles/cmTC_e47de.dir/feature_tests.cxx.o -c /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e47de
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e47de.dir/link.txt --verbose=1
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++       -rdynamic CMakeFiles/cmTC_e47de.dir/feature_tests.cxx.o  -o cmTC_e47de 
+gmake[1]: Leaving directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a7cab/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a7cab.dir/build.make CMakeFiles/cmTC_a7cab.dir/build
+gmake[1]: Entering directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7cab.dir/feature_tests.cxx.o
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++    -std=c++14 -o CMakeFiles/cmTC_a7cab.dir/feature_tests.cxx.o -c /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a7cab
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7cab.dir/link.txt --verbose=1
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++       -rdynamic CMakeFiles/cmTC_a7cab.dir/feature_tests.cxx.o  -o cmTC_a7cab 
+gmake[1]: Leaving directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c45ee/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c45ee.dir/build.make CMakeFiles/cmTC_c45ee.dir/build
+gmake[1]: Entering directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c45ee.dir/feature_tests.cxx.o
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++    -std=c++11 -o CMakeFiles/cmTC_c45ee.dir/feature_tests.cxx.o -c /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c45ee
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c45ee.dir/link.txt --verbose=1
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++       -rdynamic CMakeFiles/cmTC_c45ee.dir/feature_tests.cxx.o  -o cmTC_c45ee 
+gmake[1]: Leaving directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_861da/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_861da.dir/build.make CMakeFiles/cmTC_861da.dir/build
+gmake[1]: Entering directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_861da.dir/feature_tests.cxx.o
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++    -std=c++98 -o CMakeFiles/cmTC_861da.dir/feature_tests.cxx.o -c /lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_861da
+/turquoise/usr/projects/hpcsoft/toss3/common/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_861da.dir/link.txt --verbose=1
+/usr/projects/hpcsoft/toss3/common/x86_64/gcc/9.3.0/bin/g++       -rdynamic CMakeFiles/cmTC_861da.dir/feature_tests.cxx.o  -o cmTC_861da 
+gmake[1]: Leaving directory `/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

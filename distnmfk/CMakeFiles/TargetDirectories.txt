@@ -1,0 +1,3 @@
+/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/rebuild_cache.dir
+/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/edit_cache.dir
+/lustre/scratch3/turquoise/rvangara/cppcodefinale/namitas_distnmfk/distnmfk/CMakeFiles/distnmfk.dir
