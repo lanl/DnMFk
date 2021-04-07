@@ -19,7 +19,6 @@ The holistic analysis and understanding of the latent (that is, not-directly obs
 * [Raviteja Vangara](mailto:rvangara@lanl.gov) - Los Alamos National Laboratory
 * [Erik Skau](mailto:ewskau@lanl.gov) - Los Alamos National Laboratory
 * [Namita Kharat](mailto:namita@lanl.gov) - Los Alamos National Laboratory
-* [Manish Bhattarai](mailto:ceodspspectrum@lanl.gov) - Los Alamos National Laboratory
 * [Phan Minh Duc Truong](mailto:dptruong@lanl.gov) - Los Alamos National Laboratory
 * [Hristo Djidjev](mailto:djidjev@lanl.gov)- Los Alamos National Laboratory
 * [Boian Alexandrov](mailto:boian@lanl.gov) - Los Alamos National Laboratory
