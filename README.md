@@ -25,7 +25,7 @@ The holistic analysis and understanding of the latent (that is, not-directly obs
 
 ## Build Procedure and Experiments
 
-* For building Distributed Non-negative Matrix and Tensor Factorization **_k_**,  refer [README](distnmfk/README.md) under distnmfk directory. 
+* For building Distributed Non-negative Matrix Factorization **_k_**,  refer [README](distnmfk/README.md) under distnmfk directory. 
 * For instructions to run experiments for Distributed Non-negative Matrix and Tensor Factorization **_k_**,  refer [README Experiments](distnmfk/experiments/README_EXPS.md) under distnmfk/experiments directory.
 
 ## Acknowledgements
